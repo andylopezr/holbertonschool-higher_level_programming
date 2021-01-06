@@ -8,10 +8,10 @@ class Square:
         """Private instance attribute size of type int"""
         if type(size) is not int:
             raise TypeError("size must be an integer")
-        if size < 0:
+        elif size < 0:
             raise ValueError("size must be >= 0")
         self.__size = size
 
-        def area(self):
-            """Returns area of the Square"""
-            return self.__size * self.__size
+    def area(self):
+        """Returns the Square area"""
+        return self.__size * self.__size
