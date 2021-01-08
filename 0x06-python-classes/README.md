@@ -1,4 +1,4 @@
-# 0x05. Python - Classes and Objects
+# 0x06. Python - Classes and Objects
 ## About
 An introductory project on:
 - Classes
