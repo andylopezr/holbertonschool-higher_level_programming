@@ -42,7 +42,7 @@ class Rectangle:
                 if self.__width == 0 or self.__height == 0:
                         return ""
                 string = ""
-                for i in range(self.height -1):
+                for i in range(self.height - 1):
                         string += '#' * self.width + '\n'
                 string += '#' * self.width
                 return string
