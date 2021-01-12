@@ -50,11 +50,11 @@ class Rectangle:
     def __str__(self):
         """Prints Rectangle with # Character"""
         if self.__width == 0 or self.__height == 0:
-                return ""
+            return ""
         string = ""
         for i in range(self.height - 1):
-            string += '#' * self.width + '\n'
-        string += '#' * self.width
+            string += str(self.print_symbol) * self.width + '\n'
+        string += str(self.print_symbol) * self.width
         return string
 
     def __repr__(self):
