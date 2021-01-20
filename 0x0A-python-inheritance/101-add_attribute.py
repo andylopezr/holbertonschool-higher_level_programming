@@ -4,7 +4,6 @@
 
 def add_attribute(obj, name, value):
     """Safely adds atributes"""
-    try:
-        setattr(obj, name, value)
-    except:
+    if not hasattr(obj, "__dict__"):
         raise TypeError("can't add new attribute")
+    setattr(obj, name, value)
