@@ -3,6 +3,7 @@
 
 
 def add_attribute(obj, name, value):
+    """Safely adds atributes"""
     if type(name) is not str:
         raise TypeError("can't add new attribute")
     try:
