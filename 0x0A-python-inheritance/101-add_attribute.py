@@ -5,6 +5,6 @@
 def add_attribute(obj, name, value):
     """Safely adds atributes"""
     try:
-        setattr(obj, aname, avalue)
+        setattr(obj, name, value)
     except:
         raise TypeError("can't add new attribute")
