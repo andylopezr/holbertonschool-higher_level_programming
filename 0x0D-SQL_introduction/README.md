@@ -1,4 +1,6 @@
 # 0x0D. SQL - Introduction
+<img src="https://d1.awsstatic.com/asset-repository/products/amazon-rds/1024px-MySQL.ff87215b43fd7292af172e2a5d9b844217262571.png">
+
 ## About
 An introductory project on:
 - Whats a database
