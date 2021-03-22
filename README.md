@@ -1,9 +1,9 @@
-<img src="https://rajivpandit.files.wordpress.com/2013/02/python.png" width="600">
+<img src="https://eplexity.com/wp-content/uploads/2018/12/python-data.png">
 
 # Higher-level programming
 
 ## Welcome
-The following scripts and projects were written in Python3. 
+The following scripts and projects were written in Python3.
 ## Table of Contents
 * [About](#about)
 * [Requirements](#requirements)
