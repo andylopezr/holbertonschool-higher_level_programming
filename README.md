@@ -33,8 +33,8 @@ and more!
 * MySQL 5.7
 * MySQLdb 1.3
 * SQLAlchemy 1.1
-* node 6.10
-* semistandard 11.0
+* node 10.14
+* semistandard 14.0
 
 ## Projects
 1. [0x00-python-hello_world](./0x00-python-hello_world)
