@@ -1,9 +1,9 @@
 #!/usr/bin/node
 
-let dict = require('./101-data').dict;
+const dict = require('./101-data').dict;
 
-let newdict = {};
-for (let uid in dict) {
+const newdict = {};
+for (const uid in dict) {
   if (newdict[dict[uid]] === undefined) {
     newdict[dict[uid]] = [];
   }
